@@ -1,0 +1,16 @@
+This is for vista users, If you find you have problems using this program it down to vista’s security in the registry. That stops for writing keys, however there is a small trick.
+
+Goto start->Run and type regedit press [enter]
+
+Locate the key in the registry 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths
+
+Now you need to set permissions for this key so right click the key AppPaths
+And select permissions from the list select the item in the list something like
+
+Users(Local\Users)
+
+In the box just below select the check the tick for full control and click apply and then OK
+You should then have no problems, you can also disable it by checking of if needed.
+
